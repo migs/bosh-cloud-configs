@@ -39,10 +39,7 @@ compilation:
   vm_type: compilation
   reuse_compilation_vms: true
 
-<<<<<<< HEAD
-=======
 vm_types:
->>>>>>> Missing vm_types
 - name: compilation
   cloud_properties:
     machine_type: n1-highcpu-4
