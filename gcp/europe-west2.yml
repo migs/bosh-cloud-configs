@@ -49,3 +49,12 @@ vm_types:
     - compute.readonly
     - devstorage.read_write
     preemptible: true
+
+- name: f1-micro
+  cloud-properties:
+    machine_type: f1-micro
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    service_scopes:
+    - compute.readonly
+    - devstorage.read_write
