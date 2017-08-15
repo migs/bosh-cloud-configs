@@ -51,7 +51,7 @@ vm_types:
     preemptible: true
 
 - name: g1-small
-  cloud-properties:
+  cloud_properties:
     machine_type: g1-small
     root_disk_size_gb: 10
     root_disk_type: pd-ssd
@@ -60,7 +60,7 @@ vm_types:
     - devstorage.read_write
 
 - name: f1-micro
-  cloud-properties:
+  cloud_properties:
     machine_type: f1-micro
     root_disk_size_gb: 10
     root_disk_type: pd-ssd
