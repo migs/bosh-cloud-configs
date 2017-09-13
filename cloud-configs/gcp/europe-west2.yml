@@ -48,6 +48,8 @@ vm_types:
     service_scopes:
     - compute.readonly
     - devstorage.read_write
+    - logging.write
+    - monitoring.write
     preemptible: true
 
 - name: g1-small
@@ -58,6 +60,8 @@ vm_types:
     service_scopes:
     - compute.readonly
     - devstorage.read_write
+    - logging.write
+    - monitoring.write
 
 - name: f1-micro
   cloud_properties:
@@ -67,3 +71,5 @@ vm_types:
     service_scopes:
     - compute.readonly
     - devstorage.read_write
+    - logging.write
+    - monitoring.write
