@@ -69,5 +69,5 @@ vm_types:
     service_scopes:
     - compute.readonly
     - devstorage.read_write
-    - monitoring.metricwriter
-    - logging.logwriter
+    - monitoring.metricWriter
+    - logging.logWriter
