@@ -58,6 +58,8 @@ vm_types:
     service_scopes:
     - compute.readonly
     - devstorage.read_write
+    - monitoring.metricwriter
+    - logging.logwriter
 
 - name: f1-micro
   cloud_properties:
@@ -67,3 +69,5 @@ vm_types:
     service_scopes:
     - compute.readonly
     - devstorage.read_write
+    - monitoring.metricwriter
+    - logging.logwriter
