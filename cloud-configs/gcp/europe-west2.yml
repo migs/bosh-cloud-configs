@@ -62,6 +62,7 @@ vm_types:
     - devstorage.read_write
     - logging.write
     - monitoring.write
+    - storage.object.create
 
 - name: f1-micro
   cloud_properties:
@@ -73,3 +74,16 @@ vm_types:
     - devstorage.read_write
     - logging.write
     - monitoring.write
+    - storage.object.create
+
+- name: n1-standard-1
+  cloud_properties:
+    machine_type: n1-standard-1
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    service_scopes:
+    - compute.readonly
+    - devstorage.read_write
+    - logging.write
+    - monitoring.write
+    - storage.object.create
